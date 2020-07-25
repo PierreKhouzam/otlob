@@ -13,7 +13,7 @@ public class RestaurantDetailsPage extends BasePage {
     }
 
 
-    public void readRating() {
+    public void validateRating() {
         try {
             String rating = readText("rating");
             softAssert.assertTrue(rating.matches(".*\\d.*"));

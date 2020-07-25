@@ -29,7 +29,7 @@ public class RestaurantsAction extends BaseTest {
 
     public static void checkRating(String restaurantName) {
         AllRestaurantsPage allRestaurantsPage = new AllRestaurantsPage(driver);
-        allRestaurantsPage.selectRestaurant(restaurantName).readRating();
+        allRestaurantsPage.selectRestaurant(restaurantName).validateRating();
         ScreenshotRobot.takeScreenShot(driver);
     }
 
