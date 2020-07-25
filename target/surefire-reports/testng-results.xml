@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="79270" started-at="2020-07-25T08:11:21 EET" finished-at="2020-07-25T08:12:41 EET">
+    <groups>
+    </groups>
+    <test name="Otlob Test" duration-ms="79270" started-at="2020-07-25T08:11:21 EET" finished-at="2020-07-25T08:12:41 EET">
+      <class name="com.otlob.tests.AllRestaurantsTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.otlob.tests.AllRestaurantsTest@cd2dae5]" name="setup" is-config="true" duration-ms="7583" started-at="2020-07-25T08:11:21 EET" finished-at="2020-07-25T08:11:29 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openBaseURL()[pri:0, instance:com.otlob.tests.AllRestaurantsTest@cd2dae5]" name="openBaseURL" is-config="true" duration-ms="22375" started-at="2020-07-25T08:11:29 EET" finished-at="2020-07-25T08:11:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBaseURL -->
+        <test-method status="PASS" signature="ValidateThatUserCanSearchForRestaurants()[pri:1, instance:com.otlob.tests.AllRestaurantsTest@cd2dae5]" name="ValidateThatUserCanSearchForRestaurants" duration-ms="13843" started-at="2020-07-25T08:11:51 EET" description="Validate that the user can search for restaurants" finished-at="2020-07-25T08:12:05 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateThatUserCanSearchForRestaurants -->
+        <test-method status="PASS" signature="openBaseURL()[pri:0, instance:com.otlob.tests.AllRestaurantsTest@cd2dae5]" name="openBaseURL" is-config="true" duration-ms="3187" started-at="2020-07-25T08:12:05 EET" finished-at="2020-07-25T08:12:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBaseURL -->
+        <test-method status="PASS" signature="validateThatUserCanCheckRestaurantsRating()[pri:2, instance:com.otlob.tests.AllRestaurantsTest@cd2dae5]" name="validateThatUserCanCheckRestaurantsRating" duration-ms="31117" started-at="2020-07-25T08:12:08 EET" description="Validate that the user can check restaurants rating" finished-at="2020-07-25T08:12:40 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateThatUserCanCheckRestaurantsRating -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.otlob.tests.AllRestaurantsTest@cd2dae5]" name="teardown" is-config="true" duration-ms="1049" started-at="2020-07-25T08:12:40 EET" finished-at="2020-07-25T08:12:41 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.otlob.tests.AllRestaurantsTest -->
+    </test> <!-- Otlob Test -->
+  </suite> <!-- Suite -->
+</testng-results>

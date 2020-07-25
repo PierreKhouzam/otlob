@@ -1,0 +1,13 @@
+
+
+#Homepage object
+allRestaurantsLink=//a[@class='nav-link'][contains(text(),'All Restaurants')]
+
+
+#All Restaurants Page Object
+allRestaurantsLabel=//span[contains(text(),"All Restaurants")]
+searchField=//input[@id='search-rest']
+availableResult=//b[contains(text(),"@var")]
+
+#Restaurants Details Page Object
+rating=//label[@class='rat-label']
