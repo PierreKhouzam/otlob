@@ -11,7 +11,7 @@ public class DriverScript {
 
     public static void objectRepoLoad() {
         try {
-            objectRepoPath = System.getProperty("user.dir") + "\\config\\ObjectRepo.txt";
+            objectRepoPath = System.getProperty("user.dir") + "/config/ObjectRepo.txt";
             FileInputStream fs = new FileInputStream(objectRepoPath);
             objectRepo = new Properties(System.getProperties());
             objectRepo.load(fs);

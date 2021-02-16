@@ -16,7 +16,7 @@ public class AllRestaurantsTest extends BaseTest {
     @Test(priority = 1, description = "Validate that the user can search for restaurants")
     public void ValidateThatUserCanSearchForRestaurants() {
         // set excel file OtlobTest.xlsx
-        ExcelUtils.setExcelFile(System.getProperty("user.dir") + "\\testdata\\OtlobTest.xlsx");
+        ExcelUtils.setExcelFile(System.getProperty("user.dir") + "/testdata/OtlobTest.xlsx");
         // get testID And testName from excel sheet
         String testID = ExcelUtils.getCellData(1, 0, "TCs");
         String testName = ExcelUtils.getCellData(1, 1, "TCs");
@@ -40,7 +40,7 @@ public class AllRestaurantsTest extends BaseTest {
     @Test(priority = 2, description = "Validate that the user can check restaurants rating", successPercentage = 70)
     public void validateThatUserCanCheckRestaurantsRating() {
         // set excel file OtlobTest.xlsx
-        ExcelUtils.setExcelFile(System.getProperty("user.dir") + "\\testdata\\OtlobTest.xlsx");
+        ExcelUtils.setExcelFile(System.getProperty("user.dir") + "/testdata/OtlobTest.xlsx");
         // get testID And testName from excel sheet
         String testID = ExcelUtils.getCellData(2, 0, "TCs");
         String testName = ExcelUtils.getCellData(2, 1, "TCs");

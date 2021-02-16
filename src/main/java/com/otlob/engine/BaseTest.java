@@ -29,7 +29,7 @@ public class BaseTest {
     @BeforeMethod
     public void openBaseURL() {
         // open base URL
-        driver.get("https://www.otlob.com/egypt");
+        driver.get("https://www.talabat.com/egypt");
     }
 
 

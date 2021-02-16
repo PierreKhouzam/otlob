@@ -25,7 +25,7 @@ public class RestaurantDetailsPage extends BasePage {
 
     public void backToAllRestaurants() {
         try {
-            if (!driver.getCurrentUrl().equals("https://www.otlob.com/egypt/restaurants")) {
+            if (!driver.getCurrentUrl().equals("https://www.talabat.com/egypt/restaurants")) {
                 driver.navigate().back();
                 waitVisibility("allRestaurantsLabel");
                 ExtentTestManager.getTest().log(LogStatus.PASS, "Went back to All Restaurants page");
